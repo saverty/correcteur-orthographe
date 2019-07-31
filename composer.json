@@ -1,0 +1,43 @@
+{
+    "name": "saverty/language-corrector",
+    "description": "Correction orthographique",
+    "keywords": [
+        "saverty",
+        "language-corrector"
+    ],
+    "homepage": "https://github.com/saverty/language-corrector",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Averty Steve",
+            "email": "steve.averty1992@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saverty\\LanguageCorrector\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saverty\\LanguageCorrector\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

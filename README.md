@@ -7,7 +7,7 @@ Vérifie le nombre de fautes d'orthographe dans une phrase et propose des correc
 
 ## Installation
 
-* Installation via composer : `composer require ... `
+* Installation via composer : `composer require saverty/language-corrector`
 
 ## Usage
 
